@@ -12,7 +12,7 @@ classifiers = [
  
 setup(
   name='pypolish',
-  version='0.0.3',
+  version='0.0.7',
   description='Easily Polish Structured Data',
   long_description=long_description,
   url='',  

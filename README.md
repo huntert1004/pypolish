@@ -33,12 +33,15 @@ input_file = "data/input.json"
 output_file = "data/output.json"
 
 # Define any exceptions to the cleaning process
-exceptions = ".,-"
+exceptions = ['(', '.', '@']
 
-# Call the function
+
 polish.polish_file(input_file, output_file, exceptions)
 
 # Check the output file to see if the cleaning process was successful
 with open(output_file, 'r') as f:
     print(f.read())
-```   
+```
+
+##Github Repo
+https://github.com/huntert1004/pypolish

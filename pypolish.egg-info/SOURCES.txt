@@ -4,6 +4,8 @@ MANIFEST.in
 README.md
 pyproject.toml
 setup.py
+pypolish/__init__.py
+pypolish/polish.py
 pypolish.egg-info/PKG-INFO
 pypolish.egg-info/SOURCES.txt
 pypolish.egg-info/dependency_links.txt
